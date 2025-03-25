@@ -3223,7 +3223,7 @@
 	)
 	(text "Activa el driver que activa\n el motor (cambia la polaridad\n ya que usamos antipinch)\n"
 		(exclude_from_sim no)
-		(at 150.876 132.334 0)
+		(at 257.81 127.762 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4059,28 +4059,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Senal_motor"
-		(shape input)
-		(at 177.8 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "488da4a8-c92a-4ce0-b559-fda720aab94c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.0827 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
