@@ -2940,6 +2940,16 @@
 		)
 		(uuid "41849331-de25-4b48-8ef5-507b8bda0cc5")
 	)
+	(text "Refresco de datos I2C"
+		(exclude_from_sim no)
+		(at 152.654 139.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "440fa2cf-8385-4142-bba8-18a5960d2739")
+	)
 	(text "Conn Rth"
 		(exclude_from_sim no)
 		(at 90.424 31.242 0)
@@ -4335,6 +4345,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Clock_I2C"
+		(shape bidirectional)
+		(at 177.8 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e39ca0ac-2a4a-45ef-80ef-b81ce3505b5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.4507 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
