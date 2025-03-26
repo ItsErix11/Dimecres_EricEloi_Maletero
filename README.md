@@ -15,7 +15,7 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
 - Llista de requisits tècnics i objectius a assolir.
 
 ## Diagrama de blocs (Afegiu una imatge del diagrama de blocs)
-
+![alt text](image.png)
 ## Taula de components
 | Descripció | Manufacturer Number | Package | Datasheet | Proveïdor | Unitats |
 |------------|--------------------|---------|----------|----------|---------|
