@@ -510,8 +510,8 @@
         "pattern": "VBATERIA"
       },
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "Analogico",
+        "pattern": "VCC"
       },
       {
         "netclass": "Digital",
@@ -566,8 +566,32 @@
         "pattern": "PH_B"
       },
       {
+        "netclass": "Analogico",
+        "pattern": "Enable"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": " IMPUT_RELE"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": " SENAL_RELE"
+      },
+      {
         "netclass": "Default",
-        "pattern": "*"
+        "pattern": "SW_IN"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": " Sensor_Pie"
+      },
+      {
+        "netclass": "Potencia",
+        "pattern": "VRth"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": "Vopam"
       }
     ]
   },
