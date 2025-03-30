@@ -592,6 +592,10 @@
       {
         "netclass": "Analogico",
         "pattern": "Vopam"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": "SENSE"
       }
     ]
   },
