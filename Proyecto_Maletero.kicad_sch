@@ -11392,7 +11392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PIC18F258-I_SO:SOIC127P1030X265-28N"
+		(property "Footprint" "PIC18F258-I_SO (1):SOIC127P1030X265-28N"
 			(at 215.9 62.23 0)
 			(effects
 				(font
