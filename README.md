@@ -8,19 +8,19 @@ View this project on [CADLAB.io](https://cadlab.io/project/29036).
 
 ## Versió - v1.0 ## Curs - Assignatura de Disseny de PCBs amb KiCad - [Curs 2024-2025]
 
-## Objectivo 
+## Objetivo 
 Nuestro objetivo es crear un sistema controlador del maletero de un coche que pueda cumplir las funciones de abrir y cerrar el maletero con un motor, desempañar el cristal de este y que se pueda abrir con un sensor con el pie en el caso de tener las manos ocupadas
 
-## Requisits i especificacions
+## Requisitos i especificaciones
 - Control del motor de apertura/cierre del maletero
 - Sistema de calefacción para desempañar el cristal
 - Sensor de movimiento para apertura sin contacto
 - Interfaz CAN para comunicación con otros sistemas del coche
 - Protección contra sobrecorriente en el control del motor
 
-## Diagrama de blocs (Afegiu una imatge del diagrama de blocs)
+## Diagrama de bloques 
 ![alt text](diagrama_bloques.png)
-## Taula de components
+## Tabla de componentes
 | Descripció | Manufacturer Number | Package | Datasheet | Proveïdor | Unitats |
 |------------|--------------------|---------|----------|----------|---------|
 | LDO Voltage Regulators 5A L Drop Pos Fixed Regs | LT1084-5 | ... | https://eu.mouser.com/datasheet/2/609/1083ffe-3123432.pdf | MouserElectronics | 1 |
@@ -30,7 +30,7 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
 | Operational Amplifiers - Op Amps LOW PWR SGL OP AMP A 926-LM321MF/NOPB | LM321MFX/NOPB |  | https://www.ti.com/lit/ds/symlink/lm321.pdf?ts=1742974140204&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM321%253FkeyMatch%253DLM321%2526tisearch%253Duniversal_search%2526usecase%253DGPN-ALT | TexasInstruments | 1 |
 
 
-## Funcionalitats
+## Funcionalidades
 1. **Control del maletero**:
    - Apertura y cierre mediante motor controlado por el MCU
    - Protección antipinch mediante detección de corriente
@@ -45,7 +45,7 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
    - Protocolo CAN para integración con otros sistemas del coche
    - Posibilidad de control remoto desde la llave o panel central
 
-## Historial de canvis 
+## Historial de cambios 
 | Data | Autor | Branch | Descripció |
 |------|------|--------|------------| 
 | 2025-04-02 | Eric | `main` | Esquematico y diagrama acabados |
