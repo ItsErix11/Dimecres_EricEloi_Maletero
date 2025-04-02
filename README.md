@@ -2,20 +2,24 @@ View this project on [CADLAB.io](https://cadlab.io/project/29036).
 
 # Proyecto Maletero
 
-## Autors
+## Autores
 - Eric Trejo Sanchez (@ItsErix11)
 - Eloi Ortega Ortiz (@EloiOrtega)
 
 ## Versió - v1.0 ## Curs - Assignatura de Disseny de PCBs amb KiCad - [Curs 2024-2025]
 
-## Objectiu 
+## Objectivo 
 Nuestro objetivo es crear un sistema controlador del maletero de un coche que pueda cumplir las funciones de abrir y cerrar el maletero con un motor, desempañar el cristal de este y que se pueda abrir con un sensor con el pie en el caso de tener las manos ocupadas
 
 ## Requisits i especificacions
-- Llista de requisits tècnics i objectius a assolir.
+- Control del motor de apertura/cierre del maletero
+- Sistema de calefacción para desempañar el cristal
+- Sensor de movimiento para apertura sin contacto
+- Interfaz CAN para comunicación con otros sistemas del coche
+- Protección contra sobrecorriente en el control del motor
 
 ## Diagrama de blocs (Afegiu una imatge del diagrama de blocs)
-![alt text](image.png)
+![alt text](diagrama_bloques.png)
 ## Taula de components
 | Descripció | Manufacturer Number | Package | Datasheet | Proveïdor | Unitats |
 |------------|--------------------|---------|----------|----------|---------|
@@ -27,9 +31,54 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
 
 
 ## Funcionalitats
-- Abrir y cerrar el maletero
-- Calefactor para el cristal 
-- Sensor de apertura
+1. **Control del maletero**:
+   - Apertura y cierre mediante motor controlado por el MCU
+   - Protección antipinch mediante detección de corriente
+   
+2. **Sistema de desempañado**:
+   - Calefacción controlada por botones para regulación de temperatura
+   
+3. **Apertura sin contacto**:
+   - Sensor de movimiento para detección del pie
 
-## Historial de canvis | Data | Autor | Branch | Descripció |
-|------|------|--------|------------| | 2025-03-14 | Nom | `main` | Creació del projecte |
+4. **Interfaz de comunicación**:
+   - Protocolo CAN para integración con otros sistemas del coche
+   - Posibilidad de control remoto desde la llave o panel central
+
+## Historial de canvis 
+| Data | Autor | Branch | Descripció |
+|------|------|--------|------------| 
+| 2025-04-02 | Eric | `main` | Esquematico y diagrama acabados |
+| 2025-04-01 | Eloi | `main` | Layout final v.1, routing terminado |
+| 2025-04-01 | Eric | `main` | Arreglos del GNDPWR y GND |
+| 2025-04-01 | Eloi | `main` | Actualización del layout, capas top suprimidas |
+| 2025-04-01 | Eric | `main` | Capas de cobre del layout y DE-9 |
+| 2025-04-01 | Eloi | `main` | Actualización del layout |
+| 2025-04-01 | Eloi | `main` | Layout placement |
+| 2025-04-01 | Eloi | `main` | Creación del layout |
+| 2025-04-01 | Eric | `main` | Arreglos esquemático |
+| 2025-04-01 | Eloi | `main` | Huellas añadidas al esquematico |
+| 2025-04-01 | Eloi | `main` | Cambio de sensor en el esquemático |
+| 2025-03-31 | Eric | `main` | Adición del DE-9 y regulador del sensor del esquemático|
+| 2025-03-30 | Eloi | `main` | Corrección de errores del esquemático |
+| 2025-03-30 | Eric | `main` | Esquemático ordenado |
+| 2025-03-29 | Eloi | `main` | Corrección del switch y net lists del esquemático |
+| 2025-03-29 | Eric | `main` | Mas correcciones del esquemático |
+| 2025-03-27 | Eric | `main` | Correcciones de orden y conectores del esquemático|
+| 2025-03-26 | Eloi | `main` | Adición de Net lists, corrección de errores y regulador de tensión del esquematico |
+| 2025-03-25 | Eric | `main` | Conector del Program |
+| 2025-03-25 | Eric | `main` | Diagrama de bloques añadido |
+| 2025-03-25 | Eric | `main` | Rth mas disperso |
+| 2025-03-25 | Eric | `main` | Corrección del CAN y separación |
+| 2025-03-25 | Eric | `main` | Adición de condensadores de desacoplo |
+| 2025-03-25 | Eloi | `main` | Versión casi final |
+| 2025-03-25 | Eric | `main` | Transcriver CAN, casi todo el MCU completado |
+| 2025-03-24 | Eloi | `main` | Corrección de errores |
+| 2025-03-24 | Eloi | `main` | Resistencia termica añadida |
+| 2025-03-24 | Eric | `main` | Pruebas del proyecto |
+| 2025-03-24 | Eric | `main` | Cristal añadido |
+| 2025-03-24 | Eric | `main` | Reorganización y corrección de errores |
+| 2025-03-24 | Eloi | `main` | Etapa de regulación (LT1117) |
+| 2025-03-24 | Eric | `main` | Adición de conectores |
+| 2025-03-24 | Eric | `main` | Creación del proyecto |
+
