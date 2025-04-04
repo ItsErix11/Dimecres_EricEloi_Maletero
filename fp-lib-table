@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "PIC18F258-I_SO (1)")(type "KiCad")(uri "C:/Users/eloio/Pictures/Practica1/Practica2-Eric_Trejo_Eloi_Ortega/Practica 3/PIC18F258-I_SO (1).pretty")(options "")(descr ""))
+  (lib (name "Nueva carpeta")(type "KiCad")(uri "C:/Users/eloio/OneDrive/Escriptori/Nueva carpeta.pretty")(options "")(descr ""))
 )
