@@ -44,7 +44,6 @@
       "bitmaps",
       "pads",
       "zones",
-      "drc_warnings",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
