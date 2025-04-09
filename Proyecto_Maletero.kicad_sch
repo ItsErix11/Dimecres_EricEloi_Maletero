@@ -12816,7 +12816,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a775a45d-000a-456a-af59-b9b29fd93a1d")
 		(property "Reference" "R3"
