@@ -760,6 +760,10 @@
     [
       "14c0d961-a62d-4b1a-b8ec-37f60ffee5fd",
       "Root"
+    ],
+    [
+      "a674a284-b6af-4fe9-99a2-4e3eadcde143",
+      "Transcriver CAN"
     ]
   ],
   "text_variables": {}
