@@ -47,7 +47,16 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
 
 ## Historial de cambios 
 | Data | Autor | Branch | Descripció |
-|------|------|--------|------------| 
+|------|------|--------|------------|
+| 2025-04-09 | Eloi | `main` | Corrección de errores de clase |
+| 2025-04-09 | Eric | `main` | DRC errores 0, warnings 25 |
+| 2025-04-09 | Eloi | `main` | Ultimos ajustes de islas del GND |
+| 2025-04-08 | Eloi | `main` | Actualización de huella |
+| 2025-04-08 | Eric | `main` | Reglas de diseño, 0 errores y separación de componentes |
+| 2025-04-08 | Eric | `main` | Par diferencial CAN |
+| 2025-04-08 | Eloi | `main` | Corrección de reglas de diseño del layout | 
+| 2025-04-04 | Eloi | `main` | Layout v1.2 acabado |
+| 2025-04-02 | Eloi | `main` | Corrección de errores del layout |
 | 2025-04-02 | Eric | `main` | Esquematico y diagrama acabados |
 | 2025-04-01 | Eloi | `main` | Layout final v.1, routing terminado |
 | 2025-04-01 | Eric | `main` | Arreglos del GNDPWR y GND |
