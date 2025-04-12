@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Copper Layers",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -49,11 +49,10 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_57555555",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -88,16 +87,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      102,
-      97,
-      107,
-      108,
-      107,
-      91,
-      91
+      186,
+      171,
+      112,
+      125,
+      118,
+      131,
+      131,
+      132,
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
