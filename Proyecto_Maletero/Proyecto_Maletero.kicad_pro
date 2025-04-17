@@ -488,6 +488,27 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Analogico",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 103, 0)",
+        "wire_width": 9
+      },
+      {
+        "name": "Digital",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(45, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "name": "Potencia",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 2, 0)",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -495,7 +516,112 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Potencia",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Potencia",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "Potencia",
+        "pattern": "VBATERIA"
+      },
+      {
+        "netclass": "Potencia",
+        "pattern": "VRth"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Manual_Close"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": "Vopam"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": "SENSE"
+      },
+      {
+        "netclass": "Potencia",
+        "pattern": "Motor+"
+      },
+      {
+        "netclass": "Potencia",
+        "pattern": "Motor-"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Sensor_Pie_12V"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Sensor_Pie"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "TX_USART"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "RX_USART"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "SENAL_RELE"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "CAN-"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "CAN+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GNDPWR"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": "Net-(U4-Rs)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "INPUT_RELE"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "CAN_RX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "CAN_TX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "PH_A"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "PH_B"
+      },
+      {
+        "netclass": "Analogico",
+        "pattern": "Net-(D2-A)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(Q2-B)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
