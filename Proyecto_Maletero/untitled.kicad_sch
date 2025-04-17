@@ -3153,6 +3153,42 @@
 		)
 		(uuid "866d0254-885f-460a-ba8a-1116ff38ee05")
 	)
+	(text "AUTORS"
+		(exclude_from_sim no)
+		(at 181.61 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a57b06eb-699d-4e0c-b55c-eadf42a1fbab")
+	)
+	(text "24.03.2025"
+		(exclude_from_sim no)
+		(at 207.264 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ab8b9e78-d485-42c6-9dfd-1064aa8e3f37")
+	)
+	(text "Proyecto Maletero"
+		(exclude_from_sim no)
+		(at 186.944 189.738 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ab8c3957-ea79-404f-b12f-4bf1201ae2bf")
+	)
 	(text "Detector antipinch"
 		(exclude_from_sim no)
 		(at 62.738 75.184 0)
@@ -3212,6 +3248,17 @@
 			)
 		)
 		(uuid "cc163be0-4926-431f-a440-c78f007bf635")
+	)
+	(text "Eric Trejo Sanchez\nEloi Ortega Ortiz"
+		(exclude_from_sim no)
+		(at 177.546 173.736 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "d28b42e2-a435-4c74-bfc2-16dd43d7c074")
 	)
 	(text "Bajamos el voltaje del \npulso digital del sensor"
 		(exclude_from_sim no)
