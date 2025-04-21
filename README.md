@@ -27,7 +27,7 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
 | MCU 32 KB FL 1536 RAM 25 I/O | PIC18F2580T-I/SO | SOIC-28 | https://eu.mouser.com/datasheet/2/268/39637d-3443674.pdf | DigiKey | 1 |
 | Impulsor de motor Unipolar NMOS PWM 8-SO-PowerPad | DRV8870DDA | HTSSOP-8 | https://www.ti.com/lit/ds/symlink/drv8870.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1745209885777 | DigiKey | 1 |
 | CAN Interface IC Hi Spd CAN Transceiv | MCP2551-I/SN | SOIC-8 | https://eu.mouser.com/datasheet/2/268/20001667G-3441642.pdf | DigiKey | 1 |
-| Operational Amplifiers - Op Amps LOW PWR SGL OP AMP A 926-LM321MF/NOPB | LM321MFX/NOPB | SOT-23-5 | https://www.ti.com/lit/ds/symlink/lm321.pdf?ts=1742974140204&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM321%253FkeyMatch%253DLM321%2526tisearch%253Duniversal_search%2526usecase%253DGPN-ALT | DigiKeys | 1 |
+| Operational Amplifiers - Op Amps LOW PWR SGL OP AMP A 926-LM321MF/NOPB | LM321MFX/NOPB | SOT-23-5 | https://www.ti.com/lit/ds/symlink/lm321.pdf?ts=1742974140204&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM321%253FkeyMatch%253DLM321%2526tisearch%253Duniversal_search%2526usecase%253DGPN-ALT | DigiKey | 1 |
 
 
 ## Funcionalidades
