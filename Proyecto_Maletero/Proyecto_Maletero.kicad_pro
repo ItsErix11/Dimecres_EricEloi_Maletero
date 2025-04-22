@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.33,
+          "height": 0.63,
+          "width": 0.63
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_type_mismatch|129570000|113340000|aaf484a3-121e-441f-9afb-03e7f58dc3f9|00000000-0000-0000-0000-000000000000",
+          "Los orificios van debajo del componente, lo indica el datasheet"
+        ],
+        [
+          "lib_footprint_issues|148000000|112577500|f2209b6d-3054-42d6-82d1-d1026be35cf6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|142180400|137684000|81af0ff4-57c1-43cf-a595-909c3f39991d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -78,7 +91,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -98,7 +111,7 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
