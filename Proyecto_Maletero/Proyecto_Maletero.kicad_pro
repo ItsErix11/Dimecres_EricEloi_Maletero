@@ -517,6 +517,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(255, 2, 0)",
+        "track_width": 0.8,
         "wire_width": 12
       }
     ],
@@ -563,7 +564,7 @@
         "pattern": "Motor-"
       },
       {
-        "netclass": "Digital",
+        "netclass": "Potencia",
         "pattern": "Sensor_Pie_12V"
       },
       {
