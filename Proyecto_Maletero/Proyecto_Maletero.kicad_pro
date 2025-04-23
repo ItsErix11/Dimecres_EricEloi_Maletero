@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.33,
-          "height": 0.63,
-          "width": 0.63
+          "drill": 0.0,
+          "height": 2.7,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|129570000|113340000|aaf484a3-121e-441f-9afb-03e7f58dc3f9|00000000-0000-0000-0000-000000000000",
-          "Los orificios van debajo del componente, lo indica el datasheet"
+          "footprint_type_mismatch|129565000|113345000|1e9823bd-868e-45ac-96a2-4e3b302260f9|00000000-0000-0000-0000-000000000000",
+          "El datasheet dice que va asi."
         ],
         [
           "lib_footprint_issues|148000000|112577500|f2209b6d-3054-42d6-82d1-d1026be35cf6|00000000-0000-0000-0000-000000000000",
