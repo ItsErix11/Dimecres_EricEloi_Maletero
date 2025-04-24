@@ -48,6 +48,20 @@ Nuestro objetivo es crear un sistema controlador del maletero de un coche que pu
 ## Historial de cambios 
 | Data | Autor | Branch | Descripció |
 |------|------|--------|------------|
+| 2025-04-24 | Eric | `main` | Orden final, final del readme |
+| 2025-04-24 | Eloi | `main` | Ultima revisión |
+| 2025-04-23 | Eric | `main` | Version final final |
+| 2025-04-23 | Eric | `main` | Todos los arreglos del placement |
+| 2025-04-22 | Eric | `main` | Textos de fabrica y reglas de diseño solucionado |
+| 2025-04-22 | Eric | `main` | Orden de carpetas y referencia a autores (nosotros) |
+| 2025-04-21 | Eric | `main` | Inicio presupuesto y continuación del readme |
+| 2025-04-18 | Eloi | `main` | Actualización del layout |
+| 2025-04-17 | Eloi | `main` | Actualización del layout y netclases |
+| 2025-04-12 | Eric | `main` | Orden carpetas |
+| 2025-04-12 | Eric | `main` | Diagrama completo |
+| 2025-04-09 | Eric | `main` | Esquematico final y pasado al layout |
+| 2025-04-09 | Eric | `main` | Orden del esquematico |
+| 2025-04-09 | Eric | `main` | Esquematico compactado |
 | 2025-04-09 | Eloi | `main` | Corrección de errores de clase |
 | 2025-04-09 | Eric | `main` | DRC errores 0, warnings 25 |
 | 2025-04-09 | Eloi | `main` | Ultimos ajustes de islas del GND |
